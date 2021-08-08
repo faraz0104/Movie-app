@@ -1,0 +1,100 @@
+.hero{
+    height:90vh;
+    width:100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(../src/images/training-828732_1920.jpg);
+    background-size: cover;
+    position: relative;
+    margin-top: auto;
+    flex-wrap: wrap;
+}
+.App{
+    width:100vw;
+    height:100vh;
+    background-image: url(../src/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding:50px 0;
+    text-align: center;
+    color:#000;
+    margin-top: 0px;
+   
+}
+h1{
+   font-size: 6rem;
+   padding:50px 0;
+   text-align: center;
+   color:#fff;
+  
+
+}
+.parent{
+    width:80vw;
+    height:auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.child{
+    width:200px;
+    height:200px;
+}
+
+.child:first-child{
+    background: #ffbe76;
+}
+.child:last-child{
+    background: #ff7979;
+}
+@media (max-width:768px){
+    .App{height:auto; }
+}
+.top-bar{
+    display:flex;
+    padding:40px 120px;
+}
+.top-bar img{
+    width: 135px;
+    border-radius: 30px;
+
+}
+.top-link ul{
+   margin-left: 50px;
+   display:inline
+}
+.top-link li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 25px;
+}
+
+.top-link ul a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.info{
+    margin:80px 130px;
+    color:#fff;
+
+}
+.info h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.info h1 span{
+    color:yellow;
+}
+
+.search{
+    background-color:white;
+    width:335px;
+    height:50px;
+    border:2px solid purple;
+    margin-bottom: 50px;
+    margin-left: 550px;
+    color:yellow;
+    font-size: 15px;
+  
+}
